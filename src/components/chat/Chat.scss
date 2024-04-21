@@ -2,9 +2,11 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    height: 100vh;
     background-color: #2b2d33;
     .chatMessage{
         flex-grow: 1;
+        overflow-y: scroll;
     }
 
     .chatInput{
